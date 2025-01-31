@@ -5,6 +5,10 @@
     bottom:0;
     padding:12px;
     width:300px;
+    height: calc(100vh - 100px); 
+    overflow-y: auto;
+    scrollbar-width: thin; 
+    scrollbar-color: #323232 #242424; 
 }
 
 .sidebar__navigation{
@@ -164,6 +168,7 @@
     margin:8px;
     padding:8px;
     border-radius:20px;
+
 }
 
 .languages .languages__button span{
