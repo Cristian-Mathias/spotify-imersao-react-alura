@@ -39,6 +39,7 @@
   .header__login {
     display: flex;
     align-items: center;
+    
   }
   
   .header__search {
@@ -76,6 +77,8 @@
     background-color: transparent;
     margin-right: 32px;
     border:none;
+    font-family: var(--font-dm-sans);
+    cursor: pointer;
   }
   
   .header__login .login {
@@ -86,6 +89,8 @@
     font-weight: 700;
     border-radius: 40px;
     border:none;
+    font-family: var(--font-dm-sans);
+    cursor: pointer;
   }
 
   .header__search:hover {
